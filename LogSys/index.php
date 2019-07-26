@@ -28,18 +28,34 @@
 			</div>
 		</div>
 
-
-
 	<div class="container">
 		<div class="row">
 			<div class="jumbotron">
 				<h1>Jumbotron</h1>		
-				<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+				<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information............</p>
 				<center><br>
 				<button class="btn btn-lg btn-success"> Sign Up</button></center>
 			</div>
-			<div class="col-lg-12 well" >
-				<h1>My First Logging!!.......</h1>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 well" >
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 well" >
+				<form action="" name="f1" method="post">
+					<div class="input-group">
+						<span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+						<input type="text" id="usuario" class="form-control">
+						
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon"> <i class="glyphicon glyphicon-lock"></i></span>
+						<input type="password" id="contraseña" class="form-control">
+						
+					</div>		
+
+				</form>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 well" >
 			</div>
 		</div>
 	</div>
