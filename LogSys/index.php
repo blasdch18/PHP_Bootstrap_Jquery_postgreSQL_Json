@@ -13,6 +13,12 @@
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+	<script type="text/javascript" src="js/jquery.1.8.1.js"></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<script type="text/javascript" src="js/jquery.1.8.1.js"></script>
+	<script type="text/javascript" src="js/Login.js"></script>
+	
+
 </head>
 
 <body>
@@ -27,6 +33,7 @@
 				</ul>
 			</div>
 		</div>
+	</div>	
 
 	<div class="container">
 		<div class="row">
@@ -36,26 +43,33 @@
 				<center><br>
 				<button class="btn btn-lg btn-success"> Sign Up</button></center>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 well" >
+
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 " >
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 well" >
+
 				<form action="" name="f1" method="post">
+					
 					<div class="input-group">
 						<span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
-						<input type="text" id="usuario" class="form-control">
-						
+						<input type="text" id="usuario" class="form-control">						
 					</div>
+					<br>
 					<div class="input-group">
 						<span class="input-group-addon"> <i class="glyphicon glyphicon-lock"></i></span>
-						<input type="password" id="contraseña" class="form-control">
-						
+						<input type="password" id="contrasena" class="form-control">					
 					</div>		
+					<br>
+					<div class="input-group">
+						<button type="button" class="btn btn-default" id="Iniciar"> Sign In</button>
+					</div>
 
 				</form>
+
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 well" >
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="mensaje" >
 			</div>
 		</div>
 	</div>
